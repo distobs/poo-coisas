@@ -24,7 +24,7 @@ class Main {
 			media += notas[i];
 		}
 
-        	media /= 2;
+        	media /= n;
 
 		System.out.println("A média final foi: " + media);
 	}
