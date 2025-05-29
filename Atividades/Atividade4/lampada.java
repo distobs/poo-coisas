@@ -11,11 +11,11 @@ class LampadaInstancia {
 }
 
 class Lampada {
-	int ligado = 0;
+	Boolean ligado = false;
 	int temperatura = 6000;
 	String cor = "branco";
 
-	int ligarDesligar() {
+	Boolean ligarDesligar() {
 		ligado = !ligado;
 		return ligado;
 	}
