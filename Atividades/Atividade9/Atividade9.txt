@@ -1,0 +1,27 @@
+1. Faça uma pesquisa e explique com suas palavras o que é herança na Programação Orientada a Objetos.
+
+No paradigma Programação Orientada a Objetos, a herança é o processo no qual uma classe "herda" de outra. Nesse processo, a classe "filho" retém os atributos e métodos da classe "pai", da qual herda.
+
+2. Dê um exemplo prático (não precisa ser em código) de herança no mundo real.
+
+Todos os modelos de carro Chevrolet, além de herdarem da classe maior "Carro", herdam da classe "Veículo".
+
+3. Qual é a principal vantagem de se utilizar herança em projetos orientados a objetos?
+
+A herança facilita o reuso de código (de forma semelhante a funções e procedimentos) e cria uma hierarquia clara entre classes, facilitando o entendimento e a manutenção do código.
+
+4. O que significa abstrair um objeto no contexto da POO?
+
+É reduzir um objeto do mundo real às características necessárias para o contexto do projeto. Um carro, por exemplo, pode ser reduzido a marca, modelo e ano, por mais que seja infinitamente mais complexo que esses três atributos.
+
+5. O que é encapsulamento e como ele melhora a segurança dos dados?
+
+Encapsulamento é uma forma de manipular a visibilidade dos atributos, métodos e construtores de uma classe. Promove a seguraça ao permitir que uma classe de outro pacote, por exemplo, não acesse dados que não deveria acessar.
+
+6. Qual é o papel dos modificadores de acesso (`private`, `public` e `default`) no encapsulamento?
+
+Essas palavras-chave indicam o nível de visibilidade do objeto a que se atribui. Por exemplo: um atributo declarado como `private` só pode ser visto na classe em que foi declarado.
+
+7. Dê um exemplo prático de encapsulamento, explicando por que ele é útil.
+
+Numa biblioteca para gerenciar livrarias onde cada livro é identificado com um token único, dificilmente é desejável que o programa que utiliza a biblioteca altere o token manualmente. Declarar a variável que contém o token com a palavra-chave `private` permite que os usuários não a alterem.
